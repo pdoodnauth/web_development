@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="stylingsignup.css">
+</head>
+<body>
+    <a href="draft1.html" class="linkhome">
+    <p class="backhome"><span style='font-size:100px;'>&#9970;</span>Back to Main Page</p>
+    </a>
+    <form class="form">
+        <fieldset>
+        <legend class="formlegend">Sign Up</legend>
+        <div class="contact">
+            <label for="username">First Name</label>
+            <input type="text" name="username" id="username" placeholder="Type name...">
+            <label>Last Name</label>
+            <input type="password" name="password" id="password" placeholder="Type name...">
+        </div>
+        
+        <div class="control">
+         
+        </div class="control">
+        <p>Gender</p>
+        <label for="female">Female</label>
+        <input type="radio" name="selectgender" value="Female" id="female">
+        <label for="male">Male</label>
+        <input type="radio" name="selectgender" value="Male" id="male">
+        <label for="other">Other</label>
+        <input type="radio" name="selectgender" value="Other" id="other">
+        </div>
+
+        <hr>
+        <div class="control">
+            <p>How did you hear about us? (select all that applies)</p>
+            <label for="socialmedia">Social Media</label>
+            <input type="checkbox" name="aboutus" id="socialmedia" value="socialmedia">
+            <label for="internet">Internet</label>
+            <input type="checkbox" name="aboutus" id="internet" value="internet">
+            <label for="referral">Referral from friends or family</label>
+            <input type="checkbox" name="aboutus" id="referral" value="referral">
+        </div>
+        <hr>
+        <div class="control">
+            <p>Which tour are you interested in? (select all that applies)</p>
+            <label for="socialmedia">Iwokrama</label>
+            <input type="checkbox" name="aboutus" id="socialmedia" value="socialmedia">
+            <label for="internet">Rupununi</label>
+            <input type="checkbox" name="aboutus" id="internet" value="internet">
+            <label for="referral">Kaieteur Falls</label>
+            <input type="checkbox" name="aboutus" id="referral" value="referral">
+        </div>
+        <div class="control">
+            <p><label for="comments">Please let us know which tours you are interested in and your party size</label></p>
+            <textarea name="textcomment" id="comments" rows="10" cols="100" placeholder="No more than 2000 characters" maxlength="2000"></textarea>
+        </div>
+
+        <div class="control">
+            <button type="submit">Submit Form</button>
+
+        </div>
+
+
+    </fieldset>
+    </form>
+</body>
+</html>
